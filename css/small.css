@@ -1,0 +1,175 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+:root {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    --lightWeight: 200;
+    --heavyWeight: 400;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: #D9B7B0;
+    
+}
+nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+
+
+}
+nav a {
+ padding: .8rem .5rem;
+ display: block; 
+ text-decoration: none;
+ color:rgb(152, 96, 126);
+ border-radius: 10px;
+ font-weight: var(--heavyWeight);
+
+ 
+}
+
+nav a:hover {
+    background-color: #D99F7E;
+    color: wheat;
+
+}
+
+section#about {
+background-color: #F2D5BB;
+height: 100vh;
+padding: 50px;
+text-align: center;
+display: flex; 
+flex-direction: column;
+justify-content: center;
+}
+section#about h1 {
+    font-size: 2.5 rem;
+}
+section#about h2 {
+    font-size: 1.5 rem;
+    color:  #BF8D7A;
+    font-style: italic;
+
+}
+div.theParent {
+display: flex;
+flex-wrap: wrap;
+
+}
+div.theParent a {
+    flex-basis: 100%;
+    padding: 1rem 2vw;
+
+
+}
+section#projects {
+    background-color: #C5CCD9;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+    section#projects h2 {
+        font-size: 3.00 rem;
+        padding-bottom: 20px;
+    }
+    section#projects a {
+        text-decoration: none;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+        color: #733B36;
+    }
+    section#projects a:hover {
+        text-decoration: underline;
+        transform: translateY(5px);
+        color: #BF8D7A;
+        
+        }
+
+    section#projects figcaption {
+        background-color: antiquewhite;
+        padding: 10px;
+        
+        
+        
+    }
+    
+    section#projects figure {
+        margin: 0;
+       
+    }
+    section#projects img {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(200, 163, 115);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+   
+    section#contact {
+        background-color: #7CA6A6;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+     
+        }
+    section#contact h2 {
+            font-size: 3.00 rem;
+            padding-bottom: 30px;
+        }
+    
+    section#contact ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        }
+    section#contact li {
+    list-style-type: none;
+        }
+    section#contact a {
+        text-decoration: none;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+        
+        }
+    section#contact a img {
+     height: 60px;
+     display: block;
+     text-align: center;
+     width: 100%;
+     padding: 10px;
+     
+
+
+
+        }
+    section#contact a:hover {
+        text-decoration: underline;
+        transform: translateY(5px);
+        }
+    footer p, footer span {
+        font-size: 20px;
+        color: #ebebeb;
+        text-align: center;
+        padding: 10px;
+        background-color: #7CA6A6;
+        
+        
+
+
+    }
+
