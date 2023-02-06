@@ -55,10 +55,10 @@ flex-direction: column;
 justify-content: center;
 }
 section#about h1 {
-    font-size: 2.5 rem;
+    font-size: 2.5rem;
 }
 section#about h2 {
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     color:  #BF8D7A;
     font-style: italic;
 
@@ -81,7 +81,7 @@ section#projects {
 }
 
     section#projects h2 {
-        font-size: 3.00 rem;
+        font-size: 3.00rem;
         padding-bottom: 20px;
     }
     section#projects a {
@@ -128,7 +128,7 @@ section#projects {
      
         }
     section#contact h2 {
-            font-size: 3.00 rem;
+            font-size: 3.00rem;
             padding-bottom: 30px;
         }
     
